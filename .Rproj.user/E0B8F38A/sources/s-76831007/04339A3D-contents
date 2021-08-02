@@ -1,7 +1,7 @@
 ---
-title: "About pcheck tool"
+title: "About this site"
 description: |
-  A tool for checking the plausibility of reported p-values
+  Some additional details about the website
 ---
 
 ```{r setup, include=FALSE}
