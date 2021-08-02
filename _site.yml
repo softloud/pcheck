@@ -1,0 +1,12 @@
+name: "pcheck"
+title: "pcheck"
+description: |
+  pcheck
+output_dir: "docs"
+navbar:
+  right:
+    - text: "tool"
+      href: shiny.html
+    - text: "thinking"
+      href: first-pass.html
+output: distill::distill_article
