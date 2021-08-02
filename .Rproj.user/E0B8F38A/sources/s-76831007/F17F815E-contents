@@ -1,0 +1,20 @@
+---
+title: "pcheck tool"
+description: |
+  Check the plausibility of a reported p-value for difference of two groups
+author:
+  - name: Charles T. Gray and Gavin Stewart 
+    affiliation: Evidence Synthesis Lab, Newcastle University
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+```{r layout="l-screen-inset shaded"}
+knitr::include_app("https://softloud.shinyapps.io/pcheckapp/", height = "900px")
+```
+

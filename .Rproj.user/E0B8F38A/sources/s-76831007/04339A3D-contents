@@ -1,0 +1,10 @@
+---
+title: "About pcheck tool"
+description: |
+  A tool for checking the plausibility of reported p-values
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
