@@ -1,7 +1,7 @@
 ---
-title: "About this site"
+title: "About pcheck"
 description: |
-  Some additional details about the website
+  Information about this tool
 ---
 
 ```{r setup, include=FALSE}
