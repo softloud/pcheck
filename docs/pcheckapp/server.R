@@ -61,6 +61,7 @@ function(input, output, session) {
       ) +
       theme_tufte(base_size = 20) +
       theme(
+        axis.title.x = element_blank(),
         axis.line.y = element_blank(),
         axis.ticks.y = element_blank(),
         axis.text.y = element_blank(),
@@ -68,7 +69,7 @@ function(input, output, session) {
       ) +
       xlim(min(c(input$amu, input$bmu)) - 3 * max(c(input$asigma, input$bsigma)),
            max(c(input$amu, input$bmu)) + 3 * max(c(input$asigma, input$bsigma))) +
-      labs(title = "Estimated densities of groups A and B")
+      labs(title = "Estimated distributions of groups A and B")
   })
 
   h2("Simulation results")

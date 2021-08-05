@@ -23,7 +23,7 @@
       "description": "Plausbility of reported p-value for difference of two groups\n",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-08-02T15:01:34+01:00"
+      "last_modified": "2021-08-05T15:18:24+01:00"
     },
     {
       "path": "shiny.html",
@@ -31,13 +31,13 @@
       "description": "Check the plausibility of a reported p-value for difference of two groups\n",
       "author": [
         {
-          "name": "Charles T. Gray and Gavin Stewart",
+          "name": "Charles T. Gray, Matthew Grainger, and Gavin Stewart",
           "url": {}
         }
       ],
       "date": "`r Sys.Date()`",
       "contents": "\n\n\n\n\n\n\n\n",
-      "last_modified": "2021-08-02T15:00:44+01:00"
+      "last_modified": "2021-08-05T15:18:13+01:00"
     }
   ],
   "collections": []

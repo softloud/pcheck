@@ -2,9 +2,10 @@ fluidPage(
   h1("Plausibility of reported significance of difference of two groups"),
   sidebarLayout(sidebarPanel(
   inputPanel(
-    numericInput("reportedp", "Reported p-value", 0.04, min = 0, max = 1)
+    h1("Reported p-value"),
+    numericInput("reportedp", NULL, 0.04, min = 0, max = 1)
   ),
-  h2("Reported group statistics"),
+  h2("Expected group parameters"),
   inputPanel(
     h3("Group A"),
     numericInput("an", "Sample size", 43),
