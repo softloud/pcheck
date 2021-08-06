@@ -59,6 +59,8 @@ function(input, output, session) {
         alpha = 0.7,
         size = 8
       ) +
+      geom_vline(xintercept =input$amu, lty=2 )+ # I think it is useful to see the "mean" on the plot but maybe better as a segment rather than a line so it stops at the height of the distribution and doesnt go all the way through
+      geom_vline(xintercept =input$bmu, lty=2 )+
       theme_tufte(base_size = 20) +
       theme(
         axis.title.x = element_blank(),
@@ -69,7 +71,8 @@ function(input, output, session) {
       ) +
       xlim(min(c(input$amu, input$bmu)) - 3 * max(c(input$asigma, input$bsigma)),
            max(c(input$amu, input$bmu)) + 3 * max(c(input$asigma, input$bsigma))) +
-      labs(title = "Estimated distributions of groups A and B")
+      labs(title = "Estimated distributions of groups A and B",
+           caption = "Reported means for each group are indicated by vertical dashed lines")
   })
 
   h2("Simulation results")
