@@ -6,13 +6,16 @@ author:
   - name: Charles T. Gray, Matthew Grainger, and Gavin Stewart 
     affiliation: Evidence Synthesis Lab, Newcastle University
 date: "`r Sys.Date()`"
-output: distill::distill_article
+output: 
+  distill::distill_article
+bibliography: biblio.bib
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+This app is based on a simulation study [@grainger_2017].
 
 ```{r layout="l-screen-inset shaded"}
 knitr::include_app("https://softloud.shinyapps.io/pcheckapp/", 
