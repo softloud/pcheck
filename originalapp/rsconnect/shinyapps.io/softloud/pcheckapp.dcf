@@ -5,9 +5,9 @@ account: softloud
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 4447858
-bundleId: 5011748
+bundleId: 4886777
 url: https://softloud.shinyapps.io/pcheckapp/
-when: 1631099803.74443
-lastSyncTime: 1631099803.74446
+when: 1628072411.60276
+lastSyncTime: 1628072411.60279
 asMultiple: FALSE
 asStatic: FALSE
